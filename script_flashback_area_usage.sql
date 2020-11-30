@@ -1,0 +1,1 @@
+select * from V$FLASH_RECOVERY_AREA_USAGE;

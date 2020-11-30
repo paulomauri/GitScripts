@@ -1,0 +1,5 @@
+
+./nome_script.sh > /dev/null 2>&1
+
+Ex:
+./script_check_database_lock.sh ORCL > /dev/null 2>&1

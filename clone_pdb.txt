@@ -1,0 +1,33 @@
+# Clonando um PDB com ASM
+
+NO CDB$ROOT
+
+-> ALTER PLUGGABLE DATABASE MERCQA CLOSE;
+
+-> ALTER PLUGGABLE DATABASE MERCQA UNPLUG INTO ‘/home/oracle/MERCQA.xml’;
+
+-> scp /home/oracle/MERCQA.xml oracle@nerv07:/home/oracle/MERCQA.xml
+
+--> como utiliza o grid, acessar o diskgroup do ASM (+DATA, asmcmd) e criar os diretórios.
+
+-> mover os arquivos (datafiles, tempfiles) da origem (nerv05) para o destino (nerv07) via ASMCMD.
+
+---> EXEMPLO
+---->  cp +DATA/ORCLMT/8D47312DE45624D8E0530F02000A3FCC/DATAFILE/sysaux.288.1013194429 SYS@nerv07.+ASM:+DATA/ORCLMT/8D47312DE45624D8E0530F02000A3FCC/DATAFILE/sysaux
+      neste caso copia-se o arquivo sem a numeração administrada pelo próprio ASM.
+	(ou move-se os datafiles para outro diretório renomeando-os, e movendo novamente ao ASM, para continuar a operação) 
+--> abrir o arquivo MERCQA.xml e alterar o nome dos datafiles. Exemplo: sysaux.288.1013194429 para sysaux.. fazer com todos datafiles.
+
+--> acessar o sqlplus 
+--> no cdb$root de destino.
+
+--> CREATE PLUGGABLE DATABASE MERCQA USING ‘/home/oracle/MERCQA.xml’ NOCOPY TEMPFILE REUSE;
+--> ALTER PLUGGABLE DATABASE MERCQA OPEN READ WRITE;
+--> ALTER PLUGGABLE DATABASE MERCQA SAVE STATE;
+
+
+ 
+
+
+
+

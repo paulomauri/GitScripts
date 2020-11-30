@@ -1,0 +1,8 @@
+dbca -silent -createDatabase -templateName General_Purpose.dbc -gdbName MERCMT -createAsContainerDatabase true -numberOfPDBs 0 -datafileDestination +DATA/MERCMT/ -sysPassword Nerv2019 -systemPassword Nerv2019 -characterSet AL32UTF8 -automaticMemoryManagement false -memoryPercentage 50 -recoveryAreaDestination +FRA -useOMF false
+
+-- na chamada anterior faltou colocar o storageType
+
+-- segue abaixo
+
+dbca -silent -createDatabase -templateName General_Purpose.dbc -gdbName MERCMT -createAsContainerDatabase true -numberOfPDBs 0 -storageType ASM -datafileDestination +DATA/MERCMT/ -sysPassword Nerv2019 -systemPassword Nerv2019 -characterSet AL32UTF8 -automaticMemoryManagement false -memoryPercentage 50 -recoveryAreaDestination +FRA -useOMF false
+

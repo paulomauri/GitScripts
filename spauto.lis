@@ -1,0 +1,35 @@
+
+PL/SQL procedure successfully completed.
+
+Elapsed: 00:00:01.02
+
+Job number for automated statistics collection for this instance
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Note that this job number is needed when modifying or removing
+the job:
+
+     JOBNO                                                                                                                                                                                                                                                                                                  
+----------                                                                                                                                                                                                                                                                                                  
+         1                                                                                                                                                                                                                                                                                                  
+
+
+Job queue process
+~~~~~~~~~~~~~~~~~
+Below is the current setting of the job_queue_processes init.ora
+parameter - the value for this parameter must be greater
+than 0 to use automatic statistics gathering:
+
+NAME                                 TYPE        VALUE                                                                                                                                                                                                                                                      
+------------------------------------ ----------- ------------------------------                                                                                                                                                                                                                             
+job_queue_processes                  integer     4000                                                                                                                                                                                                                                                       
+
+
+Next scheduled run
+~~~~~~~~~~~~~~~~~~
+The next scheduled run for this job is:
+
+       JOB NEXT_DATE NEXT_SEC                                                                                                                                                                                                                                                                               
+---------- --------- --------------------------------                                                                                                                                                                                                                                                       
+         1 03-AUG-19 16:00:00                                                                                                                                                                                                                                                                               
+
+Elapsed: 00:00:00.16

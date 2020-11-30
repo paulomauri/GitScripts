@@ -1,0 +1,2 @@
+20 20 * * * . /home/oracle/.bash_profile;/home/oracle/script_rman_backup_1.sh>/home/oracle/backup.$(date +\%Y\%m\%d).log 2>&1
+*  * 01 * * crontab -l > /home/oracle/scripts/crontab.$(date +\%Y\%m\%d).txt 2>&1

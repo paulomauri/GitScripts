@@ -1,0 +1,19 @@
+#!/bin/bash
+#---------------------------------------------------------------------#
+#ssh1 : ssh with your login to remote host
+function ssh1 {
+	echo "ssh -1 $LOGNAME $*"
+	ssh -1 $LOGNAME $*
+} # ssh1
+#---------------------------------------------------------------------#
+# ssho : ssh with the oracle userid to remote host
+function ssho {
+	echo "ssh -1 oracle $*"
+	ssh -1 oracle $*
+} # ssho
+#---------------------------------------------------------------------#
+# chkps : check for a process on the box
+function chkps {
+	ps -ef | grep -i $1 | grep -v grep
+} # chkps
+#---------------------------------------------------------------------# 

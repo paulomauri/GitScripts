@@ -1,0 +1,182 @@
+Elapsed: 00:00:00.01
+
+
+Choose the Default tablespace for the PERFSTAT user
+--------------------------------------------------- 
+Below is the list of online tablespaces in this database which can
+store user data.  Specifying the SYSTEM tablespace for the user's
+default tablespace will result in the installation FAILING, as
+using SYSTEM for performance data is not supported.
+
+Choose the PERFSTAT users's default tablespace.  This is the tablespace
+in which the STATSPACK tables and indexes will be created.
+
+TABLESPACE_NAME                CONTENTS              STATSPACK DEFAULT TABLESPACE                                                                                                                                                                                                                           
+------------------------------ --------------------- ----------------------------                                                                                                                                                                                                                           
+SYSAUX                         PERMANENT             *                                                                                                                                                                                                                                                      
+TESTE                          PERMANENT                                                                                                                                                                                                                                                                    
+USERS                          PERMANENT                                                                                                                                                                                                                                                                    
+Elapsed: 00:00:00.14
+
+Pressing <return> will result in STATSPACK's recommended default
+tablespace (identified by *) being used.
+
+Enter value for default_tablespace: SYSAUX
+
+Using tablespace SYSAUX as PERFSTAT default tablespace.                                                                                                                                                                                                                                                     
+Elapsed: 00:00:00.00
+Elapsed: 00:00:00.01
+
+
+Choose the Temporary tablespace for the PERFSTAT user
+----------------------------------------------------- 
+Below is the list of online tablespaces in this database which can
+store temporary data (e.g. for sort workareas).  Specifying the SYSTEM
+tablespace for the user's temporary tablespace will result in the
+installation FAILING, as using SYSTEM for workareas is not supported.
+
+Choose the PERFSTAT user's Temporary tablespace.
+
+TABLESPACE_NAME                CONTENTS              DB DEFAULT TEMP TABLESPACE                                                                                                                                                                                                                             
+------------------------------ --------------------- --------------------------                                                                                                                                                                                                                             
+TEMP                           TEMPORARY             *                                                                                                                                                                                                                                                      
+Elapsed: 00:00:00.20
+
+Pressing <return> will result in the database's default Temporary
+tablespace (identified by *) being used.
+
+Enter value for temporary_tablespace: TEMP
+
+Using tablespace TEMP as PERFSTAT temporary tablespace.                                                                                                                                                                                                                                                     
+Elapsed: 00:00:00.01
+Elapsed: 00:00:00.02
+
+
+... Creating PERFSTAT user
+Elapsed: 00:00:00.77
+Elapsed: 00:00:01.10
+
+
+... Installing required packages
+Elapsed: 00:00:00.00
+Elapsed: 00:00:00.19
+Elapsed: 00:00:00.16
+Elapsed: 00:00:00.00
+
+
+... Creating views
+Elapsed: 00:00:00.21
+Elapsed: 00:00:00.23
+Elapsed: 00:00:00.05
+Elapsed: 00:00:00.62
+Elapsed: 00:00:00.63
+Elapsed: 00:00:00.15
+Elapsed: 00:00:00.11
+Elapsed: 00:00:00.06
+Elapsed: 00:00:00.31
+Elapsed: 00:00:00.04
+Elapsed: 00:00:00.15
+Elapsed: 00:00:00.04
+Elapsed: 00:00:00.20
+Elapsed: 00:00:00.03
+Elapsed: 00:00:00.14
+Elapsed: 00:00:00.02
+
+
+... Granting privileges
+Elapsed: 00:00:00.03
+Elapsed: 00:00:00.02
+Elapsed: 00:00:00.01
+Elapsed: 00:00:00.01
+Elapsed: 00:00:00.02
+Elapsed: 00:00:00.00
+Elapsed: 00:00:00.02
+Elapsed: 00:00:00.01
+Elapsed: 00:00:00.04
+Elapsed: 00:00:00.02
+Elapsed: 00:00:00.02
+Elapsed: 00:00:00.02
+Elapsed: 00:00:00.03
+Elapsed: 00:00:00.03
+Elapsed: 00:00:00.02
+Elapsed: 00:00:00.03
+Elapsed: 00:00:00.09
+Elapsed: 00:00:00.15
+Elapsed: 00:00:00.04
+Elapsed: 00:00:00.09
+Elapsed: 00:00:00.06
+Elapsed: 00:00:00.08
+Elapsed: 00:00:00.05
+Elapsed: 00:00:00.09
+Elapsed: 00:00:00.03
+Elapsed: 00:00:00.07
+Elapsed: 00:00:00.05
+Elapsed: 00:00:00.04
+Elapsed: 00:00:00.04
+Elapsed: 00:00:00.04
+Elapsed: 00:00:00.05
+Elapsed: 00:00:00.04
+Elapsed: 00:00:00.18
+Elapsed: 00:00:00.14
+Elapsed: 00:00:00.08
+Elapsed: 00:00:00.07
+Elapsed: 00:00:00.03
+Elapsed: 00:00:00.09
+Elapsed: 00:00:00.29
+Elapsed: 00:00:00.08
+Elapsed: 00:00:00.06
+Elapsed: 00:00:00.08
+Elapsed: 00:00:00.09
+Elapsed: 00:00:00.08
+Elapsed: 00:00:00.32
+Elapsed: 00:00:00.05
+Elapsed: 00:00:00.07
+Elapsed: 00:00:00.06
+Elapsed: 00:00:00.09
+Elapsed: 00:00:00.08
+Elapsed: 00:00:00.03
+Elapsed: 00:00:00.07
+Elapsed: 00:00:00.06
+Elapsed: 00:00:00.04
+Elapsed: 00:00:00.23
+Elapsed: 00:00:00.06
+Elapsed: 00:00:00.09
+Elapsed: 00:00:00.11
+Elapsed: 00:00:00.19
+Elapsed: 00:00:00.08
+Elapsed: 00:00:00.07
+Elapsed: 00:00:00.62
+Elapsed: 00:00:00.62
+Elapsed: 00:00:00.20
+Elapsed: 00:00:00.55
+Elapsed: 00:00:00.14
+Elapsed: 00:00:00.55
+Elapsed: 00:00:00.16
+Elapsed: 00:00:00.16
+Elapsed: 00:00:00.51
+Elapsed: 00:00:00.65
+Elapsed: 00:00:00.28
+Elapsed: 00:00:00.14
+Elapsed: 00:00:00.48
+Elapsed: 00:00:00.08
+Elapsed: 00:00:00.05
+Elapsed: 00:00:00.05
+Elapsed: 00:00:00.07
+Elapsed: 00:00:00.07
+Elapsed: 00:00:00.06
+Elapsed: 00:00:00.08
+Elapsed: 00:00:00.07
+Elapsed: 00:00:00.10
+Elapsed: 00:00:00.15
+Elapsed: 00:00:00.11
+Elapsed: 00:00:00.11
+Elapsed: 00:00:00.06
+Elapsed: 00:00:00.08
+Elapsed: 00:00:00.04
+Elapsed: 00:00:00.08
+Elapsed: 00:00:00.06
+Elapsed: 00:00:00.07
+
+NOTE:
+SPCUSR complete. Please check spcusr.lis for any errors.
+

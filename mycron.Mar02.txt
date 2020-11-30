@@ -1,0 +1,1 @@
+10 20 * * * /home/oracle/scritp_rman_backup.sh

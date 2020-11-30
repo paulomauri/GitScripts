@@ -1,0 +1,46 @@
+#info about columns vmstat
+
+If b (processes sleeping) is consistently greater than 0, you may not have enough CPU
+processing power.
+
+If so (memory swapped out to disk) and si (memory swapped in from disk) are
+consistently greater than 0, you may have a memory bottleneck. On some systems,
+these columns may be labeled pi and po.
+
+If the wa (time waiting for I/O) column is high, it is usually an indication that the
+    storage subsystem is overloaded.
+
+vmstat <interval in seconds> <number of intervals>
+vmstat 2 10
+
+vmstat -S m (vmstat -Size megabytes) requires k, K, m or M (default is kb
+
+Table 8-2.  Column Descriptions of vmstat Output
+Column Description
+R	Number of processes waiting for runtime
+b 	Number of processes in uninterruptible sleep
+swpd 	Total virtual memory (swap) in use (KB)
+free 	Total idle memory (KB)
+buff	Total memory used as buffers (KB)
+cache 	Total memory used as cache (KB)
+si 	Memory swapped in from disk (KB/s)
+so 	Memory swapped out to disk (KB/s)
+bi 	Blocks read in (blocks/s) from block device
+bo 	Blocks written out (blocks/s) per second to block device
+in 	Interrupts per second
+cs 	Context switches per second
+us 	User-level code time as a percentage of total CPU time
+sy 	System-level code time as a percentage of total CPU time
+id 	Idle time as a percentage of total CPU time
+wa 	Time waiting for I/O completion
+st 	Time stolen from virtual machine
+
+
+another way to see process running, is with the watch tool, this command is used to execute another program on a period basis
+
+eg:
+
+watch -n 5 -d vmstat
+
+this command executes the program vmstat every 5 seconds and highlight the changes on screen
+

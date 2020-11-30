@@ -1,0 +1,16 @@
+Creating Package STATSPACK...
+
+Package created.
+
+Elapsed: 00:00:01.25
+No errors.
+Creating Package Body STATSPACK...
+
+Package body created.
+
+Elapsed: 00:00:07.59
+No errors.
+
+NOTE:
+SPCPKG complete. Please check spcpkg.lis for any errors.
+

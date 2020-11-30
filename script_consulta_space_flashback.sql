@@ -1,0 +1,2 @@
+select sum(FLASHBACK_SIZE)/1024/1024/1024 as space
+from V$FLASHBACK_DATABASE_LOG;

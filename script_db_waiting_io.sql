@@ -1,0 +1,8 @@
+SELECT a.username, a.sql_id, b.object_name, b.object_type, a.event
+FROM 	v$session a
+	,dba_objects b
+	,v$event_name c
+WHERE 	b.object_id = a.row_wait_obj#
+AND	a.event = c.name
+AND	c.wait_class = 'User I/O';  
+    

@@ -1,0 +1,3 @@
+20 20 * * * /home/oracle/scritp_rman_backup.sh
+*  * 01 * * crontab -l > /home/oracle/scripts/crontab.$(date +\%Y\%m\%d).txt
+12 16 03 03 * . /home/oracle/.bash_profile; /home/oracle/script_test_cron_profile.sh > /home/oracle/resultado.txt

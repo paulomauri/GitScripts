@@ -1,0 +1,53 @@
+#!/bin/bash
+source /home/oracle/.bash_profile
+
+if [ -f "/u01/app/oracle/RADM-Oracle-Semanal-1.loc" ];
+then
+echo "Rotina ainda em andamento..."
+exit
+
+else
+touch /u01/app/oracle/RADM-Oracle-Semanal-1.loc
+chown oracle:dba /u01/app/oracle/RADM-Oracle-Semanal-1.loc
+
+$ORACLE_HOME/bin/lsnrctl stop
+rm -f /u01/app/oracle/diag/tnslsnr/nerv11/listener/trace/listener.log
+$ORACLE_HOME/bin/lsnrctl start
+
+export ORACLE_SID=ORCLMT
+$ORACLE_HOME/bin/sqlplus / AS SYSDBA <<EOF
+ALTER SYSTEM REGISTER;
+EXIT;
+EOF
+
+export ORACLE_SID=ORCLMT
+$ORACLE_HOME/bin/sqlplus / AS SYSDBA <<EOF
+
+PURGE DBA_RECYCLEBIN;
+EXEC DBMS_STATS.GATHER_FIXED_OBJECTS_STATS;
+EXEC DBMS_STATS.GATHER_DICTIONARY_STATS(OPTIONS=>'GATHER STALE');
+EXEC DBMS_STATS.GATHER_DICTIONARY_STATS(OPTIONS=>'GATHER EMPTY');
+
+ALTER SESSION SET CONTAINER = ORCL;
+PURGE DBA_RECYCLEBIN;
+EXEC DBMS_STATS.GATHER_FIXED_OBJECTS_STATS;
+EXEC DBMS_STATS.GATHER_DICTIONARY_STATS(OPTIONS=>'GATHER STALE');
+EXEC DBMS_STATS.GATHER_DICTIONARY_STATS(OPTIONS=>'GATHER EMPTY');
+
+EXIT;
+EOF
+
+export ORACLE_SID=ORCLMT
+$ORACLE_HOME/bin/sqlplus PERFSTAT/Nerv2008 <<EOF
+EXEC STATSPACK.PURGE(I_NUM_DAYS=>60,I_EXTENDED_PURGE=>TRUE);
+EXIT;
+EOF
+
+export ORACLE_SID=ORCLMT
+$ORACLE_HOME/bin/rman TARGET / <<EOF
+VALIDATE CHECK LOGICAL DATABASE;
+EXIT;
+EOF
+
+rm -f /u01/app/oracle/RADM-Oracle-Semanal-1.loc
+fi

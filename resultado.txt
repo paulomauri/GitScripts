@@ -1,0 +1,46 @@
+
+SQL*Plus: Release 12.2.0.1.0 Production on Sun Mar 3 16:12:01 2019
+
+Copyright (c) 1982, 2016, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+
+16:12:01 SYS@ORCL> 
+USERNAME
+--------------------------------------------------------------------------------------------------------------------------------
+SYS
+SYSTEM
+XS$NULL
+OJVMSYS
+OUTLN
+SYS$UMF
+DBSNMP
+APPQOSSYS
+DBSFWUSER
+GGSYS
+ANONYMOUS
+FLOWS_FILES
+CTXSYS
+GSMADMIN_INTERNAL
+APEX_050000
+OLAPSYS
+XDB
+WMSYS
+GSMCATUSER
+REMOTE_SCHEDULER_AGENT
+SYSBACKUP
+APEX_PUBLIC_USER
+SYSRAC
+AUDSYS
+DIP
+SYSKM
+ORACLE_OCM
+SYSDG
+GSMUSER
+
+29 rows selected.
+
+Elapsed: 00:00:00.19
+16:12:01 SYS@ORCL> Disconnected from Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production

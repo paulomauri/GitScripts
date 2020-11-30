@@ -1,0 +1,1313 @@
+
+If this script is automatically called from spcreate (which is
+the supported method), all STATSPACK segments will be created in
+the PERFSTAT user's default tablespace.
+
+Using SYSAUX tablespace to store Statspack objects
+
+... Creating STATS$SNAPSHOT_ID Sequence
+
+Sequence created.
+
+Elapsed: 00:00:00.08
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+... Creating STATS$... tables
+
+Table created.
+
+Elapsed: 00:00:00.37
+
+Synonym created.
+
+Elapsed: 00:00:00.09
+
+Table created.
+
+Elapsed: 00:00:00.06
+
+1 row created.
+
+Elapsed: 00:00:00.25
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.03
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+Commit complete.
+
+Elapsed: 00:00:00.01
+
+Synonym created.
+
+Elapsed: 00:00:00.06
+
+Table created.
+
+Elapsed: 00:00:00.32
+
+Synonym created.
+
+Elapsed: 00:00:00.15
+
+Table created.
+
+Elapsed: 00:00:00.38
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+Table created.
+
+Elapsed: 00:00:00.17
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+Table created.
+
+Elapsed: 00:00:00.18
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+
+Table created.
+
+Elapsed: 00:00:00.22
+
+Synonym created.
+
+Elapsed: 00:00:00.06
+
+Table created.
+
+Elapsed: 00:00:00.21
+
+Synonym created.
+
+Elapsed: 00:00:00.14
+
+Table created.
+
+Elapsed: 00:00:01.03
+
+Synonym created.
+
+Elapsed: 00:00:00.08
+
+Table created.
+
+Elapsed: 00:00:00.17
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.23
+
+Synonym created.
+
+Elapsed: 00:00:00.05
+
+Table created.
+
+Elapsed: 00:00:00.22
+
+Synonym created.
+
+Elapsed: 00:00:00.09
+
+Table created.
+
+Elapsed: 00:00:00.26
+
+Synonym created.
+
+Elapsed: 00:00:00.08
+
+Table created.
+
+Elapsed: 00:00:00.18
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+Table created.
+
+Elapsed: 00:00:00.21
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+Table created.
+
+Elapsed: 00:00:00.21
+
+Synonym created.
+
+Elapsed: 00:00:00.07
+
+Table created.
+
+Elapsed: 00:00:00.14
+
+Synonym created.
+
+Elapsed: 00:00:00.05
+
+Table created.
+
+Elapsed: 00:00:00.47
+
+Synonym created.
+
+Elapsed: 00:00:00.10
+
+Table created.
+
+Elapsed: 00:00:00.50
+
+Synonym created.
+
+Elapsed: 00:00:00.07
+
+Table created.
+
+Elapsed: 00:00:00.30
+
+Synonym created.
+
+Elapsed: 00:00:00.06
+
+Table created.
+
+Elapsed: 00:00:00.09
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.10
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.21
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+
+Table created.
+
+Elapsed: 00:00:00.09
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+Table created.
+
+Elapsed: 00:00:00.13
+
+Synonym created.
+
+Elapsed: 00:00:00.07
+
+Table created.
+
+Elapsed: 00:00:00.14
+
+Synonym created.
+
+Elapsed: 00:00:00.07
+
+Table created.
+
+Elapsed: 00:00:00.11
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+
+Table created.
+
+Elapsed: 00:00:00.12
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+Table created.
+
+Elapsed: 00:00:00.10
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.18
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.22
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+Table created.
+
+Elapsed: 00:00:00.14
+
+Index created.
+
+Elapsed: 00:00:00.06
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+Table created.
+
+Elapsed: 00:00:00.10
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.16
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.17
+
+Synonym created.
+
+Elapsed: 00:00:00.23
+
+Table created.
+
+Elapsed: 00:00:00.12
+
+Synonym created.
+
+Elapsed: 00:00:00.05
+
+Table created.
+
+Elapsed: 00:00:00.06
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.12
+
+Synonym created.
+
+Elapsed: 00:00:00.05
+
+Table created.
+
+Elapsed: 00:00:00.70
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.15
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+Table created.
+
+Elapsed: 00:00:00.19
+
+Synonym created.
+
+Elapsed: 00:00:00.05
+
+Table created.
+
+Elapsed: 00:00:00.19
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+
+Table created.
+
+Elapsed: 00:00:00.12
+
+Synonym created.
+
+Elapsed: 00:00:00.05
+
+Table created.
+
+Elapsed: 00:00:00.14
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.11
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.12
+
+Synonym created.
+
+Elapsed: 00:00:00.07
+
+Table created.
+
+Elapsed: 00:00:00.07
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.12
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+Table created.
+
+Elapsed: 00:00:00.12
+
+Synonym created.
+
+Elapsed: 00:00:00.05
+
+Table created.
+
+Elapsed: 00:00:00.21
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+Table created.
+
+Elapsed: 00:00:00.15
+
+Synonym created.
+
+Elapsed: 00:00:00.06
+
+Table created.
+
+Elapsed: 00:00:00.26
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.37
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.14
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.17
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.12
+
+Synonym created.
+
+Elapsed: 00:00:00.09
+
+Table created.
+
+Elapsed: 00:00:00.11
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+Table created.
+
+Elapsed: 00:00:00.15
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+
+Table created.
+
+Elapsed: 00:00:00.19
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+Table created.
+
+Elapsed: 00:00:00.16
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+Table created.
+
+Elapsed: 00:00:00.13
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.11
+
+Synonym created.
+
+Elapsed: 00:00:00.08
+
+Table created.
+
+Elapsed: 00:00:00.14
+
+Synonym created.
+
+Elapsed: 00:00:00.02
+
+Table created.
+
+Elapsed: 00:00:00.22
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.09
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+Table created.
+
+Elapsed: 00:00:00.10
+
+Synonym created.
+
+Elapsed: 00:00:00.05
+
+Table created.
+
+Elapsed: 00:00:00.11
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+Table created.
+
+Elapsed: 00:00:00.16
+
+Synonym created.
+
+Elapsed: 00:00:00.06
+
+Table created.
+
+Elapsed: 00:00:00.16
+
+Synonym created.
+
+Elapsed: 00:00:00.05
+
+Table created.
+
+Elapsed: 00:00:00.14
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+Table created.
+
+Elapsed: 00:00:00.26
+
+Synonym created.
+
+Elapsed: 00:00:00.12
+
+Table created.
+
+Elapsed: 00:00:00.14
+
+Synonym created.
+
+Elapsed: 00:00:00.04
+
+View created.
+
+Elapsed: 00:00:00.18
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Table created.
+
+Elapsed: 00:00:00.08
+
+1 row created.
+
+Elapsed: 00:00:00.08
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.12
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.02
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.00
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+1 row created.
+
+Elapsed: 00:00:00.01
+
+Commit complete.
+
+Elapsed: 00:00:00.00
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+Synonym created.
+
+Elapsed: 00:00:00.03
+
+NOTE:
+SPCTAB complete. Please check spctab.lis for any errors.
+
