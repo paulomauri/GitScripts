@@ -1,0 +1,3 @@
+-- Verificando as Trace Flags de Inicialização habilitadas --
+Dbcc TraceStatus()
+Go

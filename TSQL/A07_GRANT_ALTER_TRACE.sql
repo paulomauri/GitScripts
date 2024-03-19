@@ -1,0 +1,4 @@
+
+USE MASTER
+GO
+GRANT ALTER TRACE TO [si-developer]
